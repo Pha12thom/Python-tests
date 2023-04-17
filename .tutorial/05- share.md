@@ -36,5 +36,4 @@ You created your project! Now that you have the hang of this, let's publish this
 To learn more about publishing repls, visit our [docs](https://docs.replit.com/hosting/sharing-your-repl#publish).
 
 Join our [100 Days of Code Community](https://ask.replit.com/t/about-100-days-of-code/) and our [Discord channel](https://discord.gg/replit).
-  
 
