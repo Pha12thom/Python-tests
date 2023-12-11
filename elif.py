@@ -6,7 +6,7 @@ password = input("Enter your password :")
 if name == "Geofrey" and password == "2704Mogo.":
 	print("Welcome Geofrey!")
 elif name == "john pope" and password == "2504":
-	print(Welcome John!)
+	print("Welcome John!")
 else:
-	print("\03[33Incorrect name or password! Please try again !")
+	print("\03[33 Incorrect name or password! Please try again !")
 

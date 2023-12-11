@@ -1,0 +1,162 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+header {
+    background-color: #0a0a5c;
+    color: rgb(245, 245, 245);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #f48a10;
+}
+
+nav {
+    display: inline-block;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+a {
+    color: white;
+    display: inline-flexbox;
+    justify-content: space-between;
+}
+
+footer {
+    color: white;
+    background-color: #0c0c5f;
+    border: 1px solid black;
+    justify-items: center;
+    align-items: center;
+}
+
+h1.locate {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.tab {
+    background-color: #d4ede0;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.welcome {
+    background-color: #d4ede0;
+    border: 2px solid #e89c9c;
+}
+
+.vid {
+    background-color: #ebd1f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+
+ul {
+    list-style-type: armenian;
+    list-style-position: inside;
+    list-style-image: url(https://www.w3schools.com/css/sqpurple.gif);
+    background-color: #ebd1f5;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    color: #0a0a5c;
+    ;
+}
+
+ol {
+    list-style-type: upper-roman;
+    list-style-position: inside;
+    list-style-image: url(https://www.w3schools.com/css/sqpurple.gif);
+    background-color: #ebd1f5;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    color: #0a1d43;
+}
+
+nav {
+    display: grid;
+    color: white;
+    justify-content: center;
+    align-items: revert-layer;
+    padding: 20px;
+    border: 1px solid rgba(7, 3, 66, 0.49);
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+
+/* Add styling for the responsive menu */
+
+.menu-icon {
+    display: none;
+    cursor: pointer;
+    background-color: #0e0a47;
+    color: balck;
+}
+
+nav ul {
+    display: none;
+    flex-direction: column;
+}
+
+nav ul.show {
+    display: flex;
+}
+
+nav.menu-icon {
+    display: grid;
+}
+
+.foot {
+    align-items: center;
+}
+
+.location {
+    background-color: #d4ede0;
+    border: 1px solid black;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    color: #0a0a5c;
+}
